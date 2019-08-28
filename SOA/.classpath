@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/lib/commons-dbcp2-2.1.1.jar" sourcepath="C:/Users/24708/.m2/repository/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-pool2-2.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-lang-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/lib/json-lib-2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/lib/ezmorph-1.0.4.jar"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_7.0"/>
+	<classpathentry kind="lib" path="D:/lib/commons-pool-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/lib/olap4j.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-dbutils-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Git/KPIGL_VERSION1.0/KPIGL/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
