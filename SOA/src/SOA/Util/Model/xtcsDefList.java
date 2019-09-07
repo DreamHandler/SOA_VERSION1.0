@@ -36,7 +36,7 @@ public class xtcsDefList {
 		ResultSet Rs = null;
 		JdbcBuilder ADbOpr = new JdbcBuilder();
 		try {
-			Rs = ADbOpr.ExecQry("SELECT * FROM basement..TBLYTABELSINFO WITH(NOLOCK) WHERE BENABLE = 1",null);
+			Rs = ADbOpr.ExecQry("SELECT * FROM basement..TBLYXTCS WITH(NOLOCK) WHERE BENABLE = 1",null);
 			if (Rs == null) {
 				return B;
 			}
@@ -61,11 +61,11 @@ public class xtcsDefList {
 		return FMapList.get(VNO);
 	}
 	public static synchronized String GetSysXtcs(String CNBMC,String MRVALUE) throws Exception{
-		if(isBLoaded()){
+//		if(isBLoaded()){
 			if(LoadData()){
 				throw new Exception("参数初始化失败");
 			};
-		}
+//		}
 		Xtcs cs = FMapList.get(CNBMC);
 		String Val = cs == null?MRVALUE:cs.getVVALUE();
 		return Val;

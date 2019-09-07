@@ -18,7 +18,7 @@ public class Xtcs extends modeUtil{
 		setVNO(GetRSString(inResultSet, "VNO"));
 		setVNAME(GetRSString(inResultSet, "VNAME"));
 		setVSYSNO(GetRSString(inResultSet, "VSYSNO"));
-		setVPARAMNAME(GetRSString(inResultSet, "VNO"));
+		setVPARAMNAME(GetRSString(inResultSet, "VPARAMNAME"));
 		setVVALUE(GetRSString(inResultSet, "VVALUE"));
 	}
 	public String getVNO() {
